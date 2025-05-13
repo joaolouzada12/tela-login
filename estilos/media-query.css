@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #0585F0, #F0F1EC);
+    }
+
+    section#login {
+        width: 80vw;
+        height: auto;
+        flex-direction: row;
+    }
+
+    section#login > div#imagem {
+        width: 30%;
+        height: auto;
+        background-image: url(../image/img-verao.jpg);
+    }
+
+    section#login > div#formulario {
+        width: 70%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #E49020, #7A94AF);
+    }
+
+    section#login {
+        width: 950px;
+        height: auto;
+        flex-direction: row;
+    }
+
+    section#login > div#imagem {
+        width: 50%;
+        height: auto;
+        background-image: url(../image/img-outono.jpg);
+    }
+
+    section#login > div#formulario {
+        width: 50%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section#login > div#formulario h1 {
+        font-size: 2em;
+    }
+
+    section#login > div#formulario p {
+        font-size: 1em;
+    }
+}
